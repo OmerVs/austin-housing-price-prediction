@@ -1,3 +1,7 @@
+
+
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+   ![Status](https://img.shields.io/badge/status-complete-success.svg)
 # Austin Housing Price Prediction
 
 A machine learning project predicting housing prices in Austin, Texas using advanced feature engineering and gradient boosting algorithms.
